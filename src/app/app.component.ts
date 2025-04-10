@@ -2,11 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ImgService } from './service/img.service';
 import { img, ImgResponse } from '../../datatype';
+import { FooterComponent } from "./footer/footer.component";
+import { HeaderComponent } from './header/header.component';
+import { MidComponent } from "./mid/mid.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [],
+  imports: [FooterComponent, HeaderComponent, RouterOutlet, MidComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

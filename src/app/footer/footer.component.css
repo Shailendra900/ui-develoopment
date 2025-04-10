@@ -1,0 +1,35 @@
+
+* {
+    background-color: black;
+    color: white;
+
+}
+
+
+.bottom {
+    padding: 5% 3%;
+}
+
+.bottom-head {
+    display: flex;
+    justify-content: space-between;
+}
+.last-workout{
+    width: 30%;
+}
+
+.list li {
+    list-style: none;
+    padding: 10px;
+}
+@media(max-width:768px) {
+    .bottom div{
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .last-workout p,h1{
+        padding: 20px;
+    }
+}

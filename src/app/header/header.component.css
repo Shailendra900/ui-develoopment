@@ -1,0 +1,175 @@
+
+* {
+    background-color: black;
+    color: white;
+
+}
+.back-black {
+    display: inline-flex;
+    width: 30%;
+    height: 40px;
+    background-color: rgb(51, 46, 46);
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 12px;
+    gap: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.btn-top {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 30%;
+    height: 40px;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 12px;
+    gap: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.home-title {
+    display: flex;
+    padding: 0 10%;
+}
+
+.home-titleh1 {
+    font-size: 25vh;
+}
+
+.bt .btn {
+    margin: 10px;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+.home-image01 img {
+    margin-top: 0px;
+    height: 80vh;
+}
+
+.timebutton {
+    background: transparent;
+}
+
+.timebutton {
+    position: relative;
+    bottom: 60%;
+    left: 40%;
+}
+
+.time-calories {
+    color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border: none;
+    background-color: rgb(29, 25, 25);
+    height: 45px;
+    width: 100px;
+}
+
+.time-calories p {
+    font-size: smaller;
+    background: transparent;
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+}
+
+.est-calories {
+    height: 45px;
+    width: 100px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+    background-color: rgb(29, 25, 25);
+    color: red;
+    border: none;
+}
+
+.est-calories p {
+    background: transparent;
+    position: relative;
+    bottom: 10px;
+}
+
+@media(max-width:768px) {
+    .home-title {
+        flex-direction: column;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    .home-titleh1 {
+        font-size: 10vh;
+    }
+
+    .bt.btn {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    .dis.flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-image01 img {
+        height: 40vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .timebutton {
+        display: flex;
+    }
+
+    .time-calories {
+        width: 120px;
+        height: 50px;
+        position: relative;
+        font-size: 14px;
+    }
+    .est-calories{
+        position: relative;
+        right: 150px;
+        width: 100px;
+    }
+
+    .est-calories p,
+    .time-calories p {
+        bottom: 0;
+        right: 0;
+        font-size: 10px;
+        background: transparent;
+    }
+
+    .back-black {
+        width: 100%;
+        font-size: 14px;
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .btn-top {
+        width: auto;
+        height: 35px;
+        padding: 0 10px;
+        font-size: 13px;
+    }
+
+}

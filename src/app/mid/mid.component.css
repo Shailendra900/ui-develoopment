@@ -1,0 +1,70 @@
+
+* {
+    background-color: black;
+    color: white;
+
+}
+
+.populer-exercises .popular-head {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.populer-exercises .popular-head a {
+    text-decoration: none;
+    color: rgb(97, 92, 86);
+    font-size: small;
+}
+
+.populer-exercises img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.populer-exercises p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5vh;
+    position: relative;
+    right: 60px;
+    bottom: 30px;
+    background: transparent;
+}
+
+.botm-info {
+    display: flex;
+    background: rgb(17, 12, 12);
+    padding: 0 10%;
+}
+
+.botm-info img {
+    height: 100px;
+}
+
+.botm-info div,
+h1,
+p {
+    background: transparent;
+}
+
+.workout-program {
+    padding: 5%;
+}
+
+.botm-info h1 {
+    font-size: 10vh;
+}
+
+.btm-paragraph {
+    padding: 10%;
+}
+@media(max-width:768px) {
+    .botm-info{
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+}
