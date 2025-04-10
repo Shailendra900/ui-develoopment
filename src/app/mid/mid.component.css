@@ -38,6 +38,9 @@
     background: rgb(17, 12, 12);
     padding: 0 10%;
 }
+.bt-success{
+    background:#23d659;
+}
 
 .botm-info img {
     height: 100px;

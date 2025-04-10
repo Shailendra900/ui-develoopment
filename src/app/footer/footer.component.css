@@ -2,9 +2,7 @@
 * {
     background-color: black;
     color: white;
-
 }
-
 
 .bottom {
     padding: 5% 3%;
@@ -21,6 +19,12 @@
 .list li {
     list-style: none;
     padding: 10px;
+}
+.list a{
+    text-decoration: none;
+}
+.list a:hover{
+    text-decoration: underline;
 }
 @media(max-width:768px) {
     .bottom div{

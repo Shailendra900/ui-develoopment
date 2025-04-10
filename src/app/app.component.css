@@ -39,6 +39,10 @@
     background: transparent;
     color: rgb(155, 147, 147);
 }
+.list-info p{
+    color: rgb(119, 106, 87);
+    font-size: small;
+}
 
 .list-info i {
     position: absolute;
