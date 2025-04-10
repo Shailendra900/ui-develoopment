@@ -1,0 +1,18 @@
+{
+    "img":[
+        {
+            "home":"https://static.toiimg.com/thumb/82234310/82234310.jpg?height=746&width=420&resizemode=76&imgsize=406101",
+            "mid01":"https://static.gujaratsamachar.com/articles/articles_thumbs/photo_1710844584289.jpeg",
+            "mid02":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSepLw8Pko84JvCRPOsXfmW4VP3IwjM-O-TMEHr2qaZkgCCvkPY",
+            "mid03":"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ6EEhrubyUXAlTFODZqPodnx0zovPo7VhcXwv8KgKOse4A8wjn",
+            "mid04":"https://media.istockphoto.com/id/1324624694/photo/fitness-woman-running-training-for-marathon-on-sunny-coast-trail.jpg?s=612x612&w=0&k=20&c=09StrnZiVdHvfR1G9CeBqcMYxSvFSGFQVuNbOzhBQ-c=",
+            "mid05":"https://m.media-amazon.com/images/I/61xkY3+8deL._AC_UF350,350_QL80_.jpg",
+            "mid06":"https://images.pexels.com/photos/3775164/pexels-photo-3775164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "patch":"https://www.somethingpainted.com.au/wp-content/uploads/2020/05/Sunflower-Brushstroke.png",
+            "btm01":"https://media-cdn.oriflame.com/contentImage?u=2104220848&externalMediaId=a2e8b52a-0afe-43aa-8afc-0515513a334a&name=img-1&inputFormat=jpg",
+            "btm02":"https://c.pxhere.com/photos/90/35/sport_jump_woman_exercise_jumping-65049.jpg!d",
+            "btm03":"https://longevity.technology/lifestyle/wp-content/uploads/2021/12/Top-9-fitness-trackers-to-buy-in-Christmas-2021-1024x683.jpg",
+            "api":"https://shailendra900.github.io/img_api/img.json"
+        }
+    ]
+}
